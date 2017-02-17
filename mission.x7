@@ -7,7 +7,7 @@
 	<!-- prob의 순서 변경하지 마세요 
 		same_give_mission(지정된 숫자만큼은 최초 같은미션이 나간다)
 	-->
-	<mission_config  same_give_mission_cnt="24" pvp_mission_select_prob="70" pve_mission_select_prob="30" mission_init_cost="100" mission_init_max_cost="1000" mission_apply_min_time="240000"/>
+	<mission_config  same_give_mission_cnt="01" pvp_mission_select_prob="70" pve_mission_select_prob="30" mission_init_cost="1" mission_init_max_cost="1" mission_apply_min_time="010000"/>
 		
 	
 	<daily_mission_pvp_list>
@@ -46,124 +46,124 @@
 	condition 은 실제적으로 유저가 취해야하는 condition_type에 맞는 횟수입니다;
 	-->
 	<daily_mission_condition_list>
-		<daily_mission_condition_info  condition_id ="1" condition_step="1" condition_type="1" condition="1" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_touch_down.tga"/>
-		<daily_mission_condition_info  condition_id ="1" condition_step="2" condition_type="1" condition="2" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_touch_down.tga"/>
-		<daily_mission_condition_info  condition_id ="1" condition_step="3" condition_type="1" condition="3" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_touch_down.tga"/>
+		<daily_mission_condition_info  condition_id ="1" condition_step="1" condition_type="1" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_touch_down.tga"/>
+		<daily_mission_condition_info  condition_id ="1" condition_step="2" condition_type="1" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_touch_down.tga"/>
+		<daily_mission_condition_info  condition_id ="1" condition_step="3" condition_type="1" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_touch_down.tga"/>
 		
-		<daily_mission_condition_info  condition_id ="2" condition_step="1" condition_type="1" condition="1" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_touch_down.tga"/>
-		<daily_mission_condition_info  condition_id ="2" condition_step="2" condition_type="1" condition="2" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_touch_down.tga"/>
-		<daily_mission_condition_info  condition_id ="2" condition_step="3" condition_type="1" condition="3" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_touch_down.tga"/>
+		<daily_mission_condition_info  condition_id ="2" condition_step="1" condition_type="1" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_touch_down.tga"/>
+		<daily_mission_condition_info  condition_id ="2" condition_step="2" condition_type="1" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_touch_down.tga"/>
+		<daily_mission_condition_info  condition_id ="2" condition_step="3" condition_type="1" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_touch_down.tga"/>
 	
-		<daily_mission_condition_info  condition_id ="3" condition_step="1" condition_type="1" condition="1" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_touch_down.tga"/>
-		<daily_mission_condition_info  condition_id ="3" condition_step="2" condition_type="1" condition="2" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_touch_down.tga"/>
-		<daily_mission_condition_info  condition_id ="3" condition_step="3" condition_type="1" condition="3" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_touch_down.tga"/>
+		<daily_mission_condition_info  condition_id ="3" condition_step="1" condition_type="1" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_touch_down.tga"/>
+		<daily_mission_condition_info  condition_id ="3" condition_step="2" condition_type="1" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_touch_down.tga"/>
+		<daily_mission_condition_info  condition_id ="3" condition_step="3" condition_type="1" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_touch_down.tga"/>
 
-		<daily_mission_condition_info  condition_id ="4" condition_step="1" condition_type="2" condition="10" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_kill.dds"/>
-		<daily_mission_condition_info  condition_id ="4" condition_step="2" condition_type="2" condition="40" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_kill.dds"/>
-		<daily_mission_condition_info  condition_id ="4" condition_step="3" condition_type="2" condition="60" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_kill.dds"/>
+		<daily_mission_condition_info  condition_id ="4" condition_step="1" condition_type="2" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_kill.dds"/>
+		<daily_mission_condition_info  condition_id ="4" condition_step="2" condition_type="2" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_kill.dds"/>
+		<daily_mission_condition_info  condition_id ="4" condition_step="3" condition_type="2" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_kill.dds"/>
 		
-		<daily_mission_condition_info  condition_id ="5" condition_step="1" condition_type="2" condition="10" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_kill.dds"/>
-		<daily_mission_condition_info  condition_id ="5" condition_step="2" condition_type="2" condition="40" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_kill.dds"/>
-		<daily_mission_condition_info  condition_id ="5" condition_step="3" condition_type="2" condition="60" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_kill.dds"/>
+		<daily_mission_condition_info  condition_id ="5" condition_step="1" condition_type="2" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_kill.dds"/>
+		<daily_mission_condition_info  condition_id ="5" condition_step="2" condition_type="2" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_kill.dds"/>
+		<daily_mission_condition_info  condition_id ="5" condition_step="3" condition_type="2" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_kill.dds"/>
 		
-		<daily_mission_condition_info  condition_id ="6" condition_step="1" condition_type="2" condition="10" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_kill.dds"/>
-		<daily_mission_condition_info  condition_id ="6" condition_step="2" condition_type="2" condition="40" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_kill.dds"/>
-		<daily_mission_condition_info  condition_id ="6" condition_step="3" condition_type="2" condition="60" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_kill.dds"/>
+		<daily_mission_condition_info  condition_id ="6" condition_step="1" condition_type="2" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_kill.dds"/>
+		<daily_mission_condition_info  condition_id ="6" condition_step="2" condition_type="2" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_kill.dds"/>
+		<daily_mission_condition_info  condition_id ="6" condition_step="3" condition_type="2" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_kill.dds"/>
 		
-		<daily_mission_condition_info  condition_id ="7" condition_step="1" condition_type="2" condition="10" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_kill.dds"/>
-		<daily_mission_condition_info  condition_id ="7" condition_step="2" condition_type="2" condition="40" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_kill.dds"/>
-		<daily_mission_condition_info  condition_id ="7" condition_step="3" condition_type="2" condition="60" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_kill.dds"/>
+		<daily_mission_condition_info  condition_id ="7" condition_step="1" condition_type="2" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_kill.dds"/>
+		<daily_mission_condition_info  condition_id ="7" condition_step="2" condition_type="2" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_kill.dds"/>
+		<daily_mission_condition_info  condition_id ="7" condition_step="3" condition_type="2" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_kill.dds"/>
 		
-		<daily_mission_condition_info  condition_id ="8" condition_step="1" condition_type="2" condition="10" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_kill.dds"/>
-		<daily_mission_condition_info  condition_id ="8" condition_step="2" condition_type="2" condition="40" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_kill.dds"/>
-		<daily_mission_condition_info  condition_id ="8" condition_step="3" condition_type="2" condition="60" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_kill.dds"/>
+		<daily_mission_condition_info  condition_id ="8" condition_step="1" condition_type="2" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_kill.dds"/>
+		<daily_mission_condition_info  condition_id ="8" condition_step="2" condition_type="2" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_kill.dds"/>
+		<daily_mission_condition_info  condition_id ="8" condition_step="3" condition_type="2" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_kill.dds"/>
 		
-		<daily_mission_condition_info  condition_id ="9" condition_step="1" condition_type="2" condition="10" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_kill.dds"/>
-		<daily_mission_condition_info  condition_id ="9" condition_step="2" condition_type="2" condition="40" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_kill.dds"/>
-		<daily_mission_condition_info  condition_id ="9" condition_step="3" condition_type="2" condition="60" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_kill.dds"/>
+		<daily_mission_condition_info  condition_id ="9" condition_step="1" condition_type="2" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_kill.dds"/>
+		<daily_mission_condition_info  condition_id ="9" condition_step="2" condition_type="2" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_kill.dds"/>
+		<daily_mission_condition_info  condition_id ="9" condition_step="3" condition_type="2" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_kill.dds"/>
 		
-		<daily_mission_condition_info  condition_id ="10" condition_step="1" condition_type="3" condition="1" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_play.tga"/>
-		<daily_mission_condition_info  condition_id ="10" condition_step="2" condition_type="3" condition="2" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_play.tga"/>
-		<daily_mission_condition_info  condition_id ="10" condition_step="3" condition_type="3" condition="3" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_play.tga"/>
+		<daily_mission_condition_info  condition_id ="10" condition_step="1" condition_type="3" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_play.tga"/>
+		<daily_mission_condition_info  condition_id ="10" condition_step="2" condition_type="3" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_play.tga"/>
+		<daily_mission_condition_info  condition_id ="10" condition_step="3" condition_type="3" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_play.tga"/>
 		
-		<daily_mission_condition_info  condition_id ="11" condition_step="1" condition_type="3" condition="1" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_play.tga"/>
-		<daily_mission_condition_info  condition_id ="11" condition_step="2" condition_type="3" condition="2" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_play.tga"/>
-		<daily_mission_condition_info  condition_id ="11" condition_step="3" condition_type="3" condition="3" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_play.tga"/>
+		<daily_mission_condition_info  condition_id ="11" condition_step="1" condition_type="3" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_play.tga"/>
+		<daily_mission_condition_info  condition_id ="11" condition_step="2" condition_type="3" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_play.tga"/>
+		<daily_mission_condition_info  condition_id ="11" condition_step="3" condition_type="3" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_play.tga"/>
 		
-		<daily_mission_condition_info  condition_id ="12" condition_step="1" condition_type="3" condition="1" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_play.tga"/>
-		<daily_mission_condition_info  condition_id ="12" condition_step="2" condition_type="3" condition="2" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_play.tga"/>
-		<daily_mission_condition_info  condition_id ="12" condition_step="3" condition_type="3" condition="3" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_play.tga"/>
+		<daily_mission_condition_info  condition_id ="12" condition_step="1" condition_type="3" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_play.tga"/>
+		<daily_mission_condition_info  condition_id ="12" condition_step="2" condition_type="3" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_play.tga"/>
+		<daily_mission_condition_info  condition_id ="12" condition_step="3" condition_type="3" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_play.tga"/>
 		
-		<daily_mission_condition_info  condition_id ="13" condition_step="1" condition_type="3" condition="1" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_play.tga"/>
-		<daily_mission_condition_info  condition_id ="13" condition_step="2" condition_type="3" condition="2" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_play.tga"/>
-		<daily_mission_condition_info  condition_id ="13" condition_step="3" condition_type="3" condition="3" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_play.tga"/>
+		<daily_mission_condition_info  condition_id ="13" condition_step="1" condition_type="3" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_play.tga"/>
+		<daily_mission_condition_info  condition_id ="13" condition_step="2" condition_type="3" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_play.tga"/>
+		<daily_mission_condition_info  condition_id ="13" condition_step="3" condition_type="3" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_play.tga"/>
 				
-		<daily_mission_condition_info  condition_id ="14" condition_step="1" condition_type="4" condition="1" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
-		<daily_mission_condition_info  condition_id ="14" condition_step="2" condition_type="4" condition="2" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
-		<daily_mission_condition_info  condition_id ="14" condition_step="3" condition_type="4" condition="3" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
+		<daily_mission_condition_info  condition_id ="14" condition_step="1" condition_type="4" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
+		<daily_mission_condition_info  condition_id ="14" condition_step="2" condition_type="4" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
+		<daily_mission_condition_info  condition_id ="14" condition_step="3" condition_type="4" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
 		
-		<daily_mission_condition_info  condition_id ="15" condition_step="1" condition_type="4" condition="1" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
-		<daily_mission_condition_info  condition_id ="15" condition_step="2" condition_type="4" condition="2" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
-		<daily_mission_condition_info  condition_id ="15" condition_step="3" condition_type="4" condition="3" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
+		<daily_mission_condition_info  condition_id ="15" condition_step="1" condition_type="4" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
+		<daily_mission_condition_info  condition_id ="15" condition_step="2" condition_type="4" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
+		<daily_mission_condition_info  condition_id ="15" condition_step="3" condition_type="4" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
 		
-		<daily_mission_condition_info  condition_id ="16" condition_step="1" condition_type="4" condition="1" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
-		<daily_mission_condition_info  condition_id ="16" condition_step="2" condition_type="4" condition="2" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
-		<daily_mission_condition_info  condition_id ="16" condition_step="3" condition_type="4" condition="3" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
+		<daily_mission_condition_info  condition_id ="16" condition_step="1" condition_type="4" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
+		<daily_mission_condition_info  condition_id ="16" condition_step="2" condition_type="4" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
+		<daily_mission_condition_info  condition_id ="16" condition_step="3" condition_type="4" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
 		
-		<daily_mission_condition_info  condition_id ="17" condition_step="1" condition_type="4" condition="1" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
-		<daily_mission_condition_info  condition_id ="17" condition_step="2" condition_type="4" condition="2" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
-		<daily_mission_condition_info  condition_id ="17" condition_step="3" condition_type="4" condition="3" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
+		<daily_mission_condition_info  condition_id ="17" condition_step="1" condition_type="4" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
+		<daily_mission_condition_info  condition_id ="17" condition_step="2" condition_type="4" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
+		<daily_mission_condition_info  condition_id ="17" condition_step="3" condition_type="4" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
 		
-		<daily_mission_condition_info  condition_id ="18" condition_step="1" condition_type="4" condition="1" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
-		<daily_mission_condition_info  condition_id ="18" condition_step="2" condition_type="4" condition="2" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
-		<daily_mission_condition_info  condition_id ="18" condition_step="3" condition_type="4" condition="3" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
+		<daily_mission_condition_info  condition_id ="18" condition_step="1" condition_type="4" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
+		<daily_mission_condition_info  condition_id ="18" condition_step="2" condition_type="4" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
+		<daily_mission_condition_info  condition_id ="18" condition_step="3" condition_type="4" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
 		
-		<daily_mission_condition_info  condition_id ="19" condition_step="1" condition_type="4" condition="1" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
-		<daily_mission_condition_info  condition_id ="19" condition_step="2" condition_type="4" condition="2" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
-		<daily_mission_condition_info  condition_id ="19" condition_step="3" condition_type="4" condition="3" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
+		<daily_mission_condition_info  condition_id ="19" condition_step="1" condition_type="4" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
+		<daily_mission_condition_info  condition_id ="19" condition_step="2" condition_type="4" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
+		<daily_mission_condition_info  condition_id ="19" condition_step="3" condition_type="4" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
 		
-		<daily_mission_condition_info  condition_id ="20" condition_step="1" condition_type="4" condition="1" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
-		<daily_mission_condition_info  condition_id ="20" condition_step="2" condition_type="4" condition="2" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
-		<daily_mission_condition_info  condition_id ="20" condition_step="3" condition_type="4" condition="3" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
+		<daily_mission_condition_info  condition_id ="20" condition_step="1" condition_type="4" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
+		<daily_mission_condition_info  condition_id ="20" condition_step="2" condition_type="4" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
+		<daily_mission_condition_info  condition_id ="20" condition_step="3" condition_type="4" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
 				
-		<daily_mission_condition_info  condition_id ="21" condition_step="1" condition_type="4" condition="1" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
-		<daily_mission_condition_info  condition_id ="21" condition_step="2" condition_type="4" condition="2" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
-		<daily_mission_condition_info  condition_id ="21" condition_step="3" condition_type="4" condition="3" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
+		<daily_mission_condition_info  condition_id ="21" condition_step="1" condition_type="4" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
+		<daily_mission_condition_info  condition_id ="21" condition_step="2" condition_type="4" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
+		<daily_mission_condition_info  condition_id ="21" condition_step="3" condition_type="4" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
 		
-		<daily_mission_condition_info  condition_id ="22" condition_step="1" condition_type="4" condition="1" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
-		<daily_mission_condition_info  condition_id ="22" condition_step="2" condition_type="4" condition="2" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
-		<daily_mission_condition_info  condition_id ="22" condition_step="3" condition_type="4" condition="3" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
+		<daily_mission_condition_info  condition_id ="22" condition_step="1" condition_type="4" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
+		<daily_mission_condition_info  condition_id ="22" condition_step="2" condition_type="4" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
+		<daily_mission_condition_info  condition_id ="22" condition_step="3" condition_type="4" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
 		
-		<daily_mission_condition_info  condition_id ="23" condition_step="1" condition_type="4" condition="1" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
-		<daily_mission_condition_info  condition_id ="23" condition_step="2" condition_type="4" condition="2" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
-		<daily_mission_condition_info  condition_id ="23" condition_step="3" condition_type="4" condition="3" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
+		<daily_mission_condition_info  condition_id ="23" condition_step="1" condition_type="4" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
+		<daily_mission_condition_info  condition_id ="23" condition_step="2" condition_type="4" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
+		<daily_mission_condition_info  condition_id ="23" condition_step="3" condition_type="4" condition="0" condition_resourse_path="Resources/XUI/Image/Lobby/Map_select/mission_clear.tga"/>
 		
 	</daily_mission_condition_list>
 	
 	<daily_mission_reward_list>
-		<daily_mission_reward_info  reward_id="1" gift_type="item" item_key="4020056" shop_id="2" period_type="USECNT" period="1" color="0" effect_id="0" select_prob="11" item_string_key="N4020056"/>
-		<daily_mission_reward_info  reward_id="2" gift_type="item" item_key="4020057" shop_id="2" period_type="USECNT" period="1" color="0" effect_id="0" select_prob="11" item_string_key="N4020057"/>
-		<daily_mission_reward_info  reward_id="3" gift_type="item" item_key="4020058" shop_id="2" period_type="USECNT" period="1" color="0" effect_id="0" select_prob="11" item_string_key="N4020058"/>
-		<daily_mission_reward_info  reward_id="4" gift_type="item" item_key="4020059" shop_id="2" period_type="USECNT" period="1" color="0" effect_id="0" select_prob="11" item_string_key="N4020059"/>
-		<daily_mission_reward_info  reward_id="5" gift_type="item" item_key="4020060" shop_id="2" period_type="USECNT" period="1" color="0" effect_id="0" select_prob="11" item_string_key="N4020060"/>
-		<daily_mission_reward_info  reward_id="6" gift_type="item" item_key="4020061" shop_id="2" period_type="USECNT" period="1" color="0" effect_id="0" select_prob="11" item_string_key="N4020061"/>
-		<daily_mission_reward_info  reward_id="7" gift_type="item" item_key="4020062" shop_id="2" period_type="USECNT" period="1" color="0" effect_id="0" select_prob="11" item_string_key="N4020062"/>
-		<daily_mission_reward_info  reward_id="8" gift_type="item" item_key="4020063" shop_id="2" period_type="USECNT" period="1" color="0" effect_id="0" select_prob="11" item_string_key="N4020063"/>
-		<daily_mission_reward_info  reward_id="9" gift_type="item" item_key="4020064" shop_id="2" period_type="USECNT" period="1" color="0" effect_id="0" select_prob="11" item_string_key="N4020064"/>
+		<daily_mission_reward_info  reward_id="1" gift_type="item" item_key="4020056" shop_id="2" period_type="USECNT" period="100" color="0" effect_id="0" select_prob="91" item_string_key="N4020056"/>
+		<daily_mission_reward_info  reward_id="2" gift_type="item" item_key="4020057" shop_id="2" period_type="USECNT" period="100" color="0" effect_id="0" select_prob="1" item_string_key="N4020057"/>
+		<daily_mission_reward_info  reward_id="3" gift_type="item" item_key="4020058" shop_id="2" period_type="USECNT" period="100" color="0" effect_id="0" select_prob="1" item_string_key="N4020058"/>
+		<daily_mission_reward_info  reward_id="4" gift_type="item" item_key="4020059" shop_id="2" period_type="USECNT" period="100" color="0" effect_id="0" select_prob="1" item_string_key="N4020059"/>
+		<daily_mission_reward_info  reward_id="5" gift_type="item" item_key="4020060" shop_id="2" period_type="USECNT" period="100" color="0" effect_id="0" select_prob="1" item_string_key="N4020060"/>
+		<daily_mission_reward_info  reward_id="6" gift_type="item" item_key="4020061" shop_id="2" period_type="USECNT" period="100" color="0" effect_id="0" select_prob="1" item_string_key="N4020061"/>
+		<daily_mission_reward_info  reward_id="7" gift_type="item" item_key="4020062" shop_id="2" period_type="USECNT" period="100" color="0" effect_id="0" select_prob="1" item_string_key="N4020059"/>
+		<daily_mission_reward_info  reward_id="8" gift_type="item" item_key="4020063" shop_id="2" period_type="USECNT" period="100" color="0" effect_id="0" select_prob="1" item_string_key="N4020063"/>
+		<daily_mission_reward_info  reward_id="9" gift_type="item" item_key="4020064" shop_id="2" period_type="USECNT" period="100" color="0" effect_id="0" select_prob="1" item_string_key="N4020064"/>
 		
 	</daily_mission_reward_list>
 	
 	<achieve_mission_list>
-		<achieve_mission_info 	mission_id="1" complete_cnt="500" reward_id="1,2" /> <!-- 워페어 퀸 킬> -->
-		<achieve_mission_info 	mission_id="2" complete_cnt="1500" reward_id="3,4" /> <!-- 아이템 분해> -->
-		<achieve_mission_info 	mission_id="3" complete_cnt="2000" reward_id="5,6" /> <!-- 체이서 선정> -->
-		<achieve_mission_info 	mission_id="4" complete_cnt="2000" reward_id="7,8" /> <!-- 저격 무기 킬> -->
-		<achieve_mission_info 	mission_id="5" complete_cnt="3000" reward_id="9,10" /> <!-- 배틀로얄 1위> -->
-		<achieve_mission_info 	mission_id="6" complete_cnt="2000" reward_id="11,12" /> <!-- 터치다운> -->
-		<achieve_mission_info 	mission_id="7" complete_cnt="10" reward_id="13,14" /> <!-- 아이템 조합 내구제 획득> -->
-		<achieve_mission_info 	mission_id="8" complete_cnt="1000" reward_id="15,16" /> <!-- 시즈 모드 점령> -->
-		<achieve_mission_info 	mission_id="9" complete_cnt="5000" reward_id="17,18" /> <!-- 데스매치 킬> -->
-		<achieve_mission_info 	mission_id="10" complete_cnt="500" reward_id="19,20" /> <!-- 게임플레이> -->
+		<achieve_mission_info 	mission_id="1" complete_cnt="5000" reward_id="9,10" /> <!-- 워페어 퀸 킬> -->
+		<achieve_mission_info 	mission_id="2" complete_cnt="5000" reward_id="3,4" /> <!-- 아이템 분해> -->
+		<achieve_mission_info 	mission_id="3" complete_cnt="5000" reward_id="19,20" /> <!-- 체이서 선정> -->
+		<achieve_mission_info 	mission_id="4" complete_cnt="5000" reward_id="11,12" /> <!-- 저격 무기 킬> -->
+		<achieve_mission_info 	mission_id="5" complete_cnt="5000" reward_id="15,16" /> <!-- 배틀로얄 1위> -->
+		<achieve_mission_info 	mission_id="6" complete_cnt="5000" reward_id="17,18" /> <!-- 터치다운> -->
+		<achieve_mission_info 	mission_id="7" complete_cnt="5000" reward_id="13,14" /> <!-- 아이템 조합 내구제 획득> -->
+		<achieve_mission_info 	mission_id="8" complete_cnt="5000" reward_id="5,6" /> <!-- 시즈 모드 점령> -->
+		<achieve_mission_info 	mission_id="9" complete_cnt="5000" reward_id="1,2" /> <!-- 데스매치 킬> -->
+		<achieve_mission_info 	mission_id="10" complete_cnt="5000" reward_id="7,8" /> <!-- 게임플레이> -->
 	</achieve_mission_list>
 	
 	<achieve_mission_reward_list>
@@ -178,7 +178,7 @@
 		<achieve_mission_reward_info  reward_id="9" gift_type="item" item_key="1060064" shop_id="4" period_type="NONE" period="0" color="0" effect_id="1106301007" select_prob="30" item_string_key="N1060064"/>
 		<achieve_mission_reward_info  reward_id="10" gift_type="item" item_key="1000028" shop_id="4" period_type="NONE" period="0" color="0" effect_id="10016" select_prob="30" item_string_key="N1000028"/>
 		<achieve_mission_reward_info  reward_id="11" gift_type="item" item_key="1020059" shop_id="4" period_type="NONE" period="0" color="1" effect_id="1102303007" select_prob="10" item_string_key="N1020059"/>
-		<achieve_mission_reward_info  reward_id="12" gift_type="item" item_key="1020058" shop_id="4" period_type="NONE" period="0" color="1" effect_id="1102303007" select_prob="20" item_string_key="N1020058"/>
+		<achieve_mission_reward_info  reward_id="12" gift_type="item" item_key="1020058" shop_id="0" period_type="NONE" period="0" color="1" effect_id="1102303007" select_prob="20" item_string_key="N1020073"/>
 		<achieve_mission_reward_info  reward_id="13" gift_type="item" item_key="1030057" shop_id="4" period_type="NONE" period="0" color="1" effect_id="1103302008" select_prob="30" item_string_key="N1030057"/>
 		<achieve_mission_reward_info  reward_id="14" gift_type="item" item_key="1030056" shop_id="4" period_type="NONE" period="0" color="1" effect_id="1103302008" select_prob="30" item_string_key="N1030056"/>
 		<achieve_mission_reward_info  reward_id="15" gift_type="item" item_key="1040053" shop_id="4" period_type="NONE" period="0" color="1" effect_id="1104300007" select_prob="30" item_string_key="N1040053"/>
